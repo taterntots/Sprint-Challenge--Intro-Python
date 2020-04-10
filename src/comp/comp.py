@@ -29,8 +29,6 @@ print("Starts with D:")
 a = [human.name for human in humans if human.name.startswith('D')]
 print(a)
 
-print(humans[0].name)
-
 # Write a list comprehension that creates a list of names of everyone
 # whose name ends in "e".
 print("Ends with e:")
